@@ -1,20 +1,23 @@
 body{
     margin: 0%;
-    background: linear-gradient(0deg,#dddddd,#dfdfdf);
+    background: linear-gradient(180deg,#343434,#565656);
 }
 label{
     font-family: 'Montserrat';
+    color: white;
+    font-weight: bold;
 }
 fieldset{
-    background: linear-gradient(180deg,#44ffcc, #11ccaa);
-    border: 1px solid #ff2fef;
-    border-radius: 0.5em;
+    background: linear-gradient(90deg,#343434,#565656);
+    border: 1px solid #ffffff;
+    box-shadow: 0.3em 0.3em #999999;
+    padding-bottom: 10em;
 }
 .container{
     margin: 0%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 20em auto;
+    grid-template-rows: auto 20em 20em auto;
     grid-row-gap: 0.5em;
 }
 #presentation{
@@ -22,25 +25,29 @@ fieldset{
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
-    background: linear-gradient(90deg,#22ffff,#22ffbb);
+    background: linear-gradient(90deg,#ff2fef, #bb99ee);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     grid-column-gap: 0.5em;
     grid-row-gap: 0.5em;
     border-radius: 0em 0em 2em 2em;
+    border: 1px solid #ffffff;
+    border-top: none;
 }
 #presentation-header{
     grid-column: 2;
     grid-row: 1;
     font-family: 'Rubik Mono One';
     font-size: 0.8em;
-    background: linear-gradient(90deg,#ff2fef, #bb99ee);
+    background: linear-gradient(90deg,#343434,#565656);
     text-align: center;
     border-radius:  0em 0em 1em 1em;
+    border: 1px solid #ffffff;
+    border-top: none;
 }
 #presentation-header > h1{
-    color: rgba(0, 0, 0, 0.7);;
+    color:white;
 }
 #welcome{
     display: grid;
@@ -56,9 +63,10 @@ fieldset{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     justify-items: center;
-    border: solid 0.3em #ff2fef;
-    border-radius: 1em;
+    border: solid 0.1em #ffffff;
+    border-radius: 1.5em;
     grid-row-gap: 0.5em;
+    background: linear-gradient(90deg,#343434,#565656);
 }
 #welcome-div #profile-photo{
     grid-column: 2;
@@ -66,23 +74,31 @@ fieldset{
     height: 10em;
     width: 10em;
     border-radius: 50%;
+    margin: 1em;
+    border: 0.15em solid #ffffff;
 }
 #welcome-div #my-name{
     grid-column: 2;
     grid-row: 3;
     font-family: 'Rubik Mono One';
     justify-items: center;
-    background-color: #dfdfdf;
+    background: linear-gradient(90deg,#ff2fef, #bb99ee);
     border-radius: 1em;
-    padding: 0.5em;
+    padding: 1em;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em #222222;
+    border: 1px solid #ffffff;
 }
 #my-presentation{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 2;
     background:linear-gradient(90deg,#ff2fef, #bb99ee);
-    border-radius: 0em 1em 1em 0em;
+    /*border-radius: 0em 1em 1em 0em;*/
     text-align: center;
+    box-shadow: 0.4em 0.3em #999999;
+    border: 1px solid #ffffff;
+    border-left: none;
 }
 #my-presentation #my-words{
     display: block;
@@ -93,6 +109,23 @@ fieldset{
     color: rgba(0, 0, 0, 1);
     font-size: 1em;
     font-family: 'Montserrat';
+    line-height: 1.5em;
+}
+#second-article{
+    background: linear-gradient(90deg,#ff2fef, #bb99ee);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 3;
+    text-align: center;
+    margin: 0.5em;
+    border: 1px solid #ffffff;
+    margin-right: 0;
+    box-shadow: -0.4em 0.3em #999999;
+}
+#second-article p{
+    padding: 5em;
+    font-family: 'Montserrat';
+    line-height: 1.5em;
 }
 #email{
     display:block;
@@ -104,9 +137,14 @@ fieldset{
 #submit{
     display: block;
     margin-top: 0.5em;
+    background:linear-gradient(90deg,#ff2fef, #bb99ee);
+    border: 1px none #ff2fef;
+    /*border-radius: 0.3em;*/
+    box-shadow: 0.3em 0.3em ;
 }
+
 #formulario{
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 4;
     margin: 0.5em;
 }
