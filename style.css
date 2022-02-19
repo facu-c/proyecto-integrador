@@ -82,13 +82,17 @@ fieldset{
     grid-column: 2;
     grid-row: 3;
     font-family: 'Rubik Mono One';
-    justify-items: center;
     background: linear-gradient(90deg,#ff2fef, #bb99ee);
     border-radius: 1em;
     padding: 1em;
     color: #ffffff;
     text-shadow: 0.1em 0.1em #222222;
     border: 1px solid #ffffff;
+    height: auto;
+    width: auto;
+}
+#welcome-div #my-name h2{
+    text-align: center;
 }
 #my-presentation{
     grid-column-start: 1;
@@ -149,8 +153,14 @@ fieldset{
     /*border-radius: 0.3em;*/
     box-shadow: 0.3em 0.3em #999999;
     color: #ffffff;
+    height: 2em;
+    width: 10em;
 }
-
+#submit:hover{
+    height: 3em;
+    width: 12em;
+    transition: 0.5s;
+}
 #formulario{
     grid-column: 2;
     grid-row: 4;
