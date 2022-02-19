@@ -1,0 +1,112 @@
+body{
+    margin: 0%;
+    background: linear-gradient(0deg,#dddddd,#dfdfdf);
+}
+label{
+    font-family: 'Montserrat';
+}
+fieldset{
+    background: linear-gradient(180deg,#44ffcc, #11ccaa);
+    border: 1px solid #ff2fef;
+    border-radius: 0.5em;
+}
+.container{
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 20em auto;
+    grid-row-gap: 0.5em;
+}
+#presentation{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background: linear-gradient(90deg,#22ffff,#22ffbb);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
+    border-radius: 0em 0em 2em 2em;
+}
+#presentation-header{
+    grid-column: 2;
+    grid-row: 1;
+    font-family: 'Rubik Mono One';
+    font-size: 0.8em;
+    background: linear-gradient(90deg,#ff2fef, #bb99ee);
+    text-align: center;
+    border-radius:  0em 0em 1em 1em;
+}
+#presentation-header > h1{
+    color: rgba(0, 0, 0, 0.7);;
+}
+#welcome{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-column: 2;
+    grid-row: 2;
+}
+#welcome-div{
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    border: solid 0.3em #ff2fef;
+    border-radius: 1em;
+    grid-row-gap: 0.5em;
+}
+#welcome-div #profile-photo{
+    grid-column: 2;
+    grid-row: 2;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+}
+#welcome-div #my-name{
+    grid-column: 2;
+    grid-row: 3;
+    font-family: 'Rubik Mono One';
+    justify-items: center;
+    background-color: #dfdfdf;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+#my-presentation{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;
+    background:linear-gradient(90deg,#ff2fef, #bb99ee);
+    border-radius: 0em 1em 1em 0em;
+    text-align: center;
+}
+#my-presentation #my-words{
+    display: block;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+    padding: 5em;
+    color: rgba(0, 0, 0, 1);
+    font-size: 1em;
+    font-family: 'Montserrat';
+}
+#email{
+    display:block;
+    margin-bottom: 0.5em;
+}
+#password{
+    display:block;
+}
+#submit{
+    display: block;
+    margin-top: 0.5em;
+}
+#formulario{
+    grid-column: 2;
+    grid-row: 3;
+    margin: 0.5em;
+}
