@@ -6,6 +6,7 @@ label{
     font-family: 'Montserrat';
     color: white;
     font-weight: bold;
+    margin-bottom: 1em;
 }
 fieldset{
     background: linear-gradient(180deg,#343434,#565656);
@@ -130,15 +131,21 @@ fieldset{
 #email{
     display:block;
     margin-bottom: 0.5em;
+    border-radius: 0.3em;
+    border: none;
+    padding: 0.5em;
 }
 #password{
     display:block;
+    border-radius: 0.3em;
+    border: none;
+    padding: 0.5em;
+    margin-bottom: 0.8em;
 }
 #submit{
     display: block;
-    margin-top: 0.5em;
     background:linear-gradient(90deg,#ff2fef, #bb99ee);
-    border: 1px none #ff2fef;
+    border: 1px solid #ffffff;
     /*border-radius: 0.3em;*/
     box-shadow: 0.3em 0.3em #999999;
 }
