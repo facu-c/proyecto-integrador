@@ -8,7 +8,7 @@ label{
     font-weight: bold;
 }
 fieldset{
-    background: linear-gradient(90deg,#343434,#565656);
+    background: linear-gradient(180deg,#343434,#565656);
     border: 1px solid #ffffff;
     box-shadow: 0.3em 0.3em #999999;
     padding-bottom: 10em;
@@ -40,7 +40,7 @@ fieldset{
     grid-row: 1;
     font-family: 'Rubik Mono One';
     font-size: 0.8em;
-    background: linear-gradient(90deg,#343434,#565656);
+    background: linear-gradient(180deg,#343434,#565656);
     text-align: center;
     border-radius:  0em 0em 1em 1em;
     border: 1px solid #ffffff;
@@ -66,7 +66,7 @@ fieldset{
     border: solid 0.1em #ffffff;
     border-radius: 1.5em;
     grid-row-gap: 0.5em;
-    background: linear-gradient(90deg,#343434,#565656);
+    background: linear-gradient(180deg,#343434,#565656);
 }
 #welcome-div #profile-photo{
     grid-column: 2;
@@ -140,7 +140,7 @@ fieldset{
     background:linear-gradient(90deg,#ff2fef, #bb99ee);
     border: 1px none #ff2fef;
     /*border-radius: 0.3em;*/
-    box-shadow: 0.3em 0.3em ;
+    box-shadow: 0.3em 0.3em #999999;
 }
 
 #formulario{
