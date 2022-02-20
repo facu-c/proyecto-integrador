@@ -11,7 +11,7 @@ label{
 fieldset{
     background: linear-gradient(180deg,#343434,#565656);
     border: 1px solid #ffffff;
-    box-shadow: 0.3em 0.3em #999999;
+    box-shadow: 0.3em 0.3em 0.3em #999999;
     padding-bottom: 10em;
 }
 .container{
@@ -26,15 +26,17 @@ fieldset{
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
-    background: linear-gradient(90deg,#ff2fef, #bb99ee);
+    background: linear-gradient(90deg,#ff2fef, #fb11bb);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     grid-column-gap: 0.5em;
     grid-row-gap: 0.5em;
-    border-radius: 0em 0em 2em 2em;
+    border-radius: 0% 0% 10% 10%;
     border: 1px solid #ffffff;
     border-top: none;
+    margin-bottom: 1%;
+    height: 60%;
 }
 #presentation-header{
     grid-column: 2;
@@ -56,6 +58,7 @@ fieldset{
     grid-template-rows: auto auto auto;
     grid-column: 2;
     grid-row: 2;
+    margin-bottom: 0.5em;
 }
 #welcome-div{
     grid-column: 2;
@@ -72,21 +75,21 @@ fieldset{
 #welcome-div #profile-photo{
     grid-column: 2;
     grid-row: 2;
-    height: 10em;
-    width: 10em;
+    height: 8em;
+    width: 8em;
     border-radius: 50%;
-    margin: 1em;
+    margin: 0.5em;
     border: 0.15em solid #ffffff;
 }
 #welcome-div #my-name{
     grid-column: 2;
     grid-row: 3;
     font-family: 'Rubik Mono One';
-    background: linear-gradient(90deg,#ff2fef, #bb99ee);
+    background: linear-gradient(90deg,#ff2fef, #fb11bb);
     border-radius: 1em;
     padding: 1em;
     color: #ffffff;
-    text-shadow: 0.1em 0.1em #222222;
+    text-shadow: 0.1em 0.1em 0.2em #222222;
     border: 1px solid #ffffff;
     height: auto;
     width: auto;
@@ -98,10 +101,10 @@ fieldset{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 2;
-    background:linear-gradient(90deg,#ff2fef, #bb99ee);
+    background:linear-gradient(90deg,#ff2fef, #fb11bb);
     /*border-radius: 0em 1em 1em 0em;*/
     text-align: center;
-    box-shadow: 0.4em 0.3em #999999;
+    box-shadow: 0.4em 0.3em 0.3em #999999;
     border: 1px solid #ffffff;
     border-left: none;
 }
@@ -116,8 +119,20 @@ fieldset{
     font-family: 'Montserrat';
     line-height: 1.5em;
 }
+#unlp-logo{
+    grid-column: 3;
+    grid-row: 2 ;
+}
+#unlp-logo img{
+    height: 10em;
+    width: 8em;
+    margin-left: 10em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-right: 2em;
+}
 #second-article{
-    background: linear-gradient(90deg,#ff2fef, #bb99ee);
+    background: linear-gradient(90deg,#ff2fef, #fb11bb);
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row: 3;
@@ -125,12 +140,38 @@ fieldset{
     margin: 0.5em;
     border: 1px solid #ffffff;
     margin-right: 0;
-    box-shadow: -0.4em 0.3em #999999;
+    box-shadow: -0.4em 0.3em 0.3em #999999;
 }
 #second-article p{
     padding: 5em;
     font-family: 'Montserrat';
     line-height: 1.5em;
+}
+#hr{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 4;
+    background-color: #ffffff;
+    height: 0.1em;
+    margin-bottom: auto;
+    margin-bottom: 1em;
+}
+#technologies{
+    grid-row: 3;
+    grid-column: 1;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+#technologies img{
+    width: 7.5em;
+    height: 7.5em;
+
+}
+#html{
+    margin-right: 10em;
+}
+#css{
+    margin-left: 2em;
 }
 #email{
     display:block;
@@ -148,10 +189,10 @@ fieldset{
 }
 #submit{
     display: block;
-    background:linear-gradient(90deg,#ff2fef, #bb99ee);
+    background:linear-gradient(90deg,#ff2fef, #fb11bb);
     border: 1px solid #ffffff;
     /*border-radius: 0.3em;*/
-    box-shadow: 0.3em 0.3em #999999;
+    box-shadow: 0.3em 0.3em 0.3em 0.1em #999999;
     color: #ffffff;
     height: 2em;
     width: 10em;
@@ -164,5 +205,5 @@ fieldset{
 #formulario{
     grid-column: 2;
     grid-row: 4;
-    margin: 0.5em;
+    margin-top: 1em;
 }
